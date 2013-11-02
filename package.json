@@ -1,0 +1,24 @@
+{
+  "name": "martyr-js",
+  "version": "1.1.0",
+  "description": "Just my package for JS Problem solutions",
+  "author": {
+    "name": "Derek Henscheid",
+    "email": "derekhenscheid@gmail.com"
+  },
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhensche/martyr-js.git"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "dependencies": {
+    "prompt": "~0.2.11",
+    "commander": "~2.0.0",
+    "bigint": "~0.4.2",
+    "express": "~3.4.0",
+    "bignumber.js": "~1.2.1"
+  }
+}
