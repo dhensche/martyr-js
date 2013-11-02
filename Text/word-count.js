@@ -60,4 +60,5 @@ if (require.main === module) {
   }
 }
 
+exports.name = 'WordCounter';
 exports.count = countWords;

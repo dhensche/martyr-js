@@ -50,6 +50,7 @@ function convert(value, inBase, outBase) {
   return result.join('');
 }
 
+exports.name = 'NumericConverter';
 exports.convert = convert;
 
 if (require.main === module) {

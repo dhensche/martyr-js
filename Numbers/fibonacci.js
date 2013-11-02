@@ -11,6 +11,7 @@ function fib(n) {
 	}
 }
 
+exports.name = 'Fibonacci';
 exports.firstN = function(n) {
 	fib(n);
 	return cache.slice(0,n);

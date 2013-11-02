@@ -19,4 +19,5 @@ if (module.main) {
   });
 }
 
+exports.name = 'PigLatin';
 exports.translate = translate;

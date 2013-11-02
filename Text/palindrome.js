@@ -23,4 +23,5 @@ if (require.main === module) {
   });
 }
 
+exports.name = 'Palindrome';
 exports.test = test;
