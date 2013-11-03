@@ -19,5 +19,4 @@ if (require.main === module) {
   });
 }
 
-exports.name = 'TextReverser';
 exports.reverse = reverse;

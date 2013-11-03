@@ -62,5 +62,4 @@ if (require.main === module) {
 	})(bigint(program.start || 1));
 }
 
-exports.name = 'Primes';
 exports.nextPrime = nextPrime;

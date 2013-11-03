@@ -28,7 +28,6 @@ function change(cash, price) {
   });
  };
 
-exports.name = 'Change';
 exports.calculate = change;
 
 if (require.main === module) {

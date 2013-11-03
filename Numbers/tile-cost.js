@@ -37,5 +37,4 @@ if (require.main === module) {
   });
 }
 
-exports.name = 'TileCost';
-exports.cost = cost;
+exports.calculate = cost;

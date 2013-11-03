@@ -38,5 +38,4 @@ if (require.main === module) {
   });
 }
 
-exports.name = 'PrimeFactors';
 exports.generate = generatePrimeFactors;

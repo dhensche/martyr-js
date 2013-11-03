@@ -25,5 +25,4 @@ if (require.main === module) {
   });
 }
 
-exports.name = 'Vowels';
 exports.count = count;

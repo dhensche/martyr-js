@@ -45,6 +45,5 @@ if (require.main === module) {
 	});
 }
 
-exports.name = 'PiDigits';
 exports.arccot = arccot;
 exports.digits = pi_digits;

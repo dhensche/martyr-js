@@ -1,17 +1,20 @@
-var fs = require('fs'),
-    path = require('path');
-
-function importSolutions(directory) {
-  exports[directory] = {};
-  fs.readdir(path.join(__dirname, directory), function(err, files) {
-    files.forEach(function(file) {
-      if (path.extname(file) === '.js') {
-        var solution = require('./' + path.join(directory, file));
-        exports[directory][solution.name || file] = solution;
-      }
-    });
-  });
+module.exports = {
+  Numbers: {
+    Change: require('./Numbers/change'),
+    NumericConverter: require('./Numbers/converter'),
+    Fibonacci: require('./Numbers/converter'),
+    Mortgage: require('./Numbers/mortgage'),
+    Primes: require('./Numbers/next-prime'),
+    PiDigits: require('./Numbers/pi-digits'),
+    PrimeFactors: require('./Numbers/prime-factors'),
+    TileCost: require('./Numbers/tile-cost'),
+    UnitConverter: require('./Numbers/unit-converter')
+  },
+  Text: {
+    Vowels: require('./Text/count-vowels'),
+    Palindrome: require('./Text/palindrome'),
+    PigLatin: require('./Text/pig-latin'),
+    Reverser: require('./Text/reverse'),
+    WordCounter: require('./Text/word-count')
+  }
 };
-
-importSolutions('Numbers');
-importSolutions('Text');
