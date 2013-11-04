@@ -17,6 +17,7 @@
   "dependencies": {
     "prompt": "~0.2.11",
     "bigint": "~0.4.2",
-    "bignumber.js": "~1.2.1"
+    "bignumber.js": "~1.2.1",
+    "commander": "~2.0.0"
   }
 }
