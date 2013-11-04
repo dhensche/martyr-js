@@ -16,9 +16,7 @@
   },
   "dependencies": {
     "prompt": "~0.2.11",
-    "commander": "~2.0.0",
     "bigint": "~0.4.2",
-    "express": "~3.4.0",
     "bignumber.js": "~1.2.1"
   }
 }
